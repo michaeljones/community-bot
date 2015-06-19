@@ -7,7 +7,39 @@ in a communal manner with the aim of making them resistant to being abandoned an
 Ideally it would reach a standard where it would become the preferred avenue for maitaining a
 project even for quite activity involved project owners.
 
-## Ideas
+
+## Actions
+
+- Fork a repository
+
+  - Github API: [Create a Fork](https://developer.github.com/v3/repos/forks/#create-a-fork)
+
+- Merge a pull request
+
+  - Github API: [Perform a merge](https://developer.github.com/v3/repos/merging/#perform-a-merge)
+
+- Close a pull request
+
+  - Github API: [Update a Pull Request](https://developer.github.com/v3/pulls/#update-a-pull-request)
+
+- Close an issue
+
+  - Github API: [Edit an Issue](https://developer.github.com/v3/issues/#edit-an-issue)
+
+- Find new issues
+
+  - Github API: [List Issues for a Repository](https://developer.github.com/v3/issues/#list-issues-for-a-repository)
+
+- Read comments on an issue or pull request
+
+  - Github API: [List Comments on an Issue](https://developer.github.com/v3/issues/comments/#list-comments-on-an-issue)
+
+- Create a comment on an issue or pull request
+
+  - Github API: [Create a Comment](https://developer.github.com/v3/issues/comments/#create-a-comment)
+
+
+## Pool of Ideas
 
 - Support dictator. The original project owner should be able to automatically pass or veto any
   action requested of the bot.
