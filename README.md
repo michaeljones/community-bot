@@ -1,6 +1,12 @@
 
 # Community Bot
 
+This is home to an idea to build a bot that can help communities of users maintain Github projects
+in a communal manner with the aim of making them resistant to being abandoned and unmaintained.
+
+Ideally it would reach a standard where it would become the preferred avenue for maitaining a
+project even for quite activity involved project owners.
+
 ## Ideas
 
 - Support dictator. The original project owner should be able to automatically pass or veto any
@@ -51,7 +57,9 @@ Additionally:
 
 - Nominate maintainers & collaborators.
 
-- Nominate dictators - dictatorship is revoked after a period of inactivity.
+- Nominate dictators - dictatorship is revoked after a period of inactivity. Based on the idea that
+  the ideal project lead is a active benevolent dictator who can provide direction rather than a
+  community which might be divided in its goals.
 
 - Vote to close issues
 
@@ -80,6 +88,17 @@ Additionally:
 
 - Record informatin aobut people who aren't registered yet so we know how to teat them when they do.
 
+
+## Bootstrap
+
+Ideally this concept would exist as a service which is hosted and works in real time but involves
+committing funds at an early stage. Before that point:
+
+- Actions can be carried out be trusted admins using the Github interface.
+- Actions can be coded up and run manually once a day to look at all new activity and respond as
+  needed.
+
+
 ## Services
 
 Ideally the bot should be able to interact with any service that is needed in the management of the
@@ -87,3 +106,5 @@ project. It should be possible to request and then vote on different actions by 
 
 - Github
 - PyPI
+- rubygems.org
+- npmjs.com
