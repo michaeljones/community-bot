@@ -8,6 +8,23 @@ Ideally it would reach a standard where it would become the preferred avenue for
 project even for quite activity involved project owners.
 
 
+## Motivation
+
+A large number of useful projects on Github end up unmaintained because their owners become busy
+with other things. This is very understandable but can be hard for the users of those projects.
+Whilst forking a project is easy on Github, there is a risk that the new fork will become
+unmaintained for the same reasons and it is hard work to become a recognised or preferred fork for a
+project without buy in from the original maintainer.
+
+A solution to this is to move towards a community ownership model for projects. If one maintainer
+moves on then others can step in to keep the project moving forward and well maintained. To achieve
+true community ownership we need a consensus model for running the project. Pull requests & issues
+can be created by users but then voted on by the community.
+
+An independent third party is required to moderate those votes. The hope of this project is to
+create a bot to do that.
+
+
 ## Actions
 
 - Fork a repository
