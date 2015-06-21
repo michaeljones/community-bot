@@ -56,6 +56,14 @@ create a bot to do that.
   - Github API: [Create a Comment](https://developer.github.com/v3/issues/comments/#create-a-comment)
 
 
+## Organisation
+
+Projects should be forked under an organisation so that people who want to help the general
+'community-bot' effort can join the organisation and have access to the repositories. If we fork
+under a user instead then admins would have to be individually added to each repository that is
+cloned which would be slow.
+
+
 ## Pool of Ideas
 
 - Support dictator. The original project owner should be able to automatically pass or veto any
@@ -135,7 +143,8 @@ Additionally:
 
 - Rely on github for logins & user management.
 
-- Record informatin aobut people who aren't registered yet so we know how to teat them when they do.
+- Record information about people who aren't registered yet so we know how to teat them when they
+  do.
 
 
 ## Bootstrap
