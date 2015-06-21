@@ -146,6 +146,15 @@ Additionally:
 - Record information about people who aren't registered yet so we know how to teat them when they
   do.
 
+## Problems
+
+- **Name Clashes**: It is possible that there is more than one project out there with the same name
+  but in different fields. The names would clash if brought under one user or organisation. As such
+  we might need to support renaming the clone in the 'ask for a clone' syntax.
+
+  This seems to be possible via the API but as a separate command which would be a problem as we
+  won't be able to fork first before renaming, I doubt.
+
 
 ## Bootstrap
 
