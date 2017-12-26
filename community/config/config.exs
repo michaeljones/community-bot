@@ -2,6 +2,14 @@
 # and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
 
+config :community, Community.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  database: "community_bot",
+  username: "postgres",
+  password: "postgres",
+  hostname: "localhost"
+
+
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
 # file won't be loaded nor affect the parent project. For this reason,
@@ -23,7 +31,8 @@ use Mix.Config
 #
 
 config :community,
-  github_api_key: ""
+  github_api_key: "",
+  ecto_repos: [Community.Repo]
 
 # It is also possible to import configuration files, relative to this
 # directory. For example, you can emulate configuration per environment

@@ -14,8 +14,7 @@ defmodule Community.Mixfile do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      applications: [:tentacat],
-      extra_applications: [:logger],
+      extra_applications: [:logger, :tentacat, :postgrex],
       mod: {Community, []}
     ]
   end
@@ -23,7 +22,9 @@ defmodule Community.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:tentacat, "~> 0.8"}
+      {:tentacat, "~> 0.8"},
+      {:ecto, "~> 2.2"},
+      {:postgrex, ">= 0.0.0"}
     ]
   end
 end

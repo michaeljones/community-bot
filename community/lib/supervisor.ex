@@ -6,7 +6,8 @@ defmodule Community.Supervisor do
 
   def init(:ok) do
     children = [
-      Community.RequestChecker
+      Community.RequestChecker,
+      Community.Repo
     ]
 
     Supervisor.init(children, strategy: :one_for_one)
